@@ -1,8 +1,8 @@
-# React + Web Audio
+# React Audio Visualiser
 
-This is an example application that shows how to visualise audio from the microphone using the Web Audio API in React.
+An experiment in connecting React and the Web Audio API. Forked from [@philnash's example](https://github.com/philnash/react-web-audio). Rather than using the microphone as per the original example, this project connects an `<audio>` element to a visualiser.
 
-![](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/f45ncza6SRuSXhp7iE4XODmWWhy1_uqWUTbJy9Mg1uB8Eo.width-500.png)
+The current implementation is probably very inefficient; using `canvas` or a [D3 React library](https://github.com/hshoff/vx) would help.
 
 ## How to build the app
 
@@ -17,15 +17,13 @@ You need Node.js installed to run the application.
 Clone or download the project from GitHub, change into the directory and install the dependencies.
 
 ```bash
-git clone https://github.com/philnash/react-web-audio.git
-cd react-web-audio
-npm install
+yarn install
 ```
 
 Start the application:
 
 ```bash
-npm start
+yarn start
 ```
 
 And open the browser to [http://localhost:3000/](localhost:3000).

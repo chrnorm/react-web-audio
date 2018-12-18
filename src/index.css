@@ -36,3 +36,8 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+audio {
+  margin: 50px auto;
+  display: block;
+}
